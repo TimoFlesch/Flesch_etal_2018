@@ -1,0 +1,20 @@
+panel 2
+
+lapse: n.s. (p=0.06)
+
+model frequencies:
+
+significant interaction ranksum(diff_b200(modA,modB),diff_int(modA,modB)) p < 0.001; z = 4.187, ranksum = 2867
+code: ranksum(fits.modelcomps.groups.b200.posterior.r(1,:)-fits.modelcomps.groups.b200.posterior.r(2,:),fits.modelcomps.groups.int.posterior.r(1,:)-fits.modelcomps.groups.int.posterior.r(2,:))
+
+significant interaction ranksum(diff_b200(modA,modB),diff_b20(modA,modB)) p < 0.001; z=4.3031, ranksum = 2650
+
+
+
+panel 3
+
+model frequencies
+
+sig interact. 
+b200,int: p < 0.001; z = 3.4687; ranksum = 2229
+b200,b2: p=0.0027; z = 3.001; ranksum = 2067

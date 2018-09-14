@@ -1,0 +1,9 @@
+- use windows standard font, consistently
+
+- fontsize min 6, max 12
+- new colour gradient for four conditions
+
+- supplementary: RSA methods figure (remember my labmeeting talk, perhaps)
+- pnas supplementary: use their template (since april 2018, pnas doesn't change formatting of SI)
+
+- supplementary: accuracy first vs second (only b200, cardinal and diagonal in one figure)
